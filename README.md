@@ -15,6 +15,7 @@ This script automates the process of configuring certificates and starting the F
 2. Make the script executable  ``chmod +x genyConfigBurp.sh``
 3. Make sure you have both prerequisites installed and change the placeholder versions on script
 4. Launch them while having a coffee and wonder how tedious that could have been to be done manually each time.
+5. After you can use the great script by akabe1 to launch frida ``frida -U -l ./frida-script.js -f your.package.to.test``
    
 ## Disclaimer
 This script is provided as-is, without any warranties or guarantees. If you use it for evil you should feel bad :(
