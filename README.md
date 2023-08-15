@@ -19,4 +19,4 @@ This script automates the process of configuring certificates and starting the F
 ## Disclaimer
 This script is provided as-is, without any warranties or guarantees. If you use it for evil you should feel bad :(
 
-- The mnonada 🙈🙉🙈
+- The Monada 🙈🙉🙈
