@@ -11,8 +11,8 @@ echo "Changing directory to data/misc/user/0/cacerts-added/"
 cd data/misc/user/0/cacerts-added/
 echo "Remounting system partition as read-write"
 mount -o rw,remount /
-echo "Copying <<CA_CERT_PLACEHOLDER>> to /system/etc/security/cacerts"
-cp 9a5ba575.0 /system/etc/security/cacerts
+echo "Copying CA to /system/etc/security/cacerts"
+cp <<CA_CERT_PLACEHOLDER>> /system/etc/security/cacerts
 
 echo "Changing directory to /data/local/tmp/"
 cd /data/local/tmp/
